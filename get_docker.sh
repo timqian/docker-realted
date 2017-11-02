@@ -28,7 +28,7 @@ if [ -z "$CHANNEL" ]; then
 	CHANNEL=$DEFAULT_CHANNEL_VALUE
 fi
 
-DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce/"
+DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
 
 SUPPORT_MAP="
 x86_64-centos-7
@@ -81,10 +81,10 @@ done
 
 case "$mirror" in
 	Aliyun)
-		DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce/"
+		DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
 		;;
 	AzureChinaCloud)
-		DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce/"
+		DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
 		;;
 esac
 
